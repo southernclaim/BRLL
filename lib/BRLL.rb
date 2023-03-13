@@ -2,7 +2,7 @@
 
 class Brll
 	def self.ver
-	puts "V1.2.2"
+	puts "V1.3.0"
 	end
 end
 def output(oput);
@@ -42,4 +42,7 @@ system(exc)
 end
 def rn(rnum);
 rand(rnum)
+end
+def wait(wnm)
+	sleep wnm
 end

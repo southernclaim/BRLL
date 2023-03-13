@@ -27,3 +27,4 @@ ifeql(resonse,"4",output("u are right"));
 ```sh
 gem install BRLL
 ```
+* If u want a .gem file, go to [Releases](https://github.com/mioojo/BRLL/release)

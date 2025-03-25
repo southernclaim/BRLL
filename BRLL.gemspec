@@ -4,7 +4,7 @@ require_relative "lib/BRLL/version"
 
 Gem::Specification.new do |spec|
   spec.name = "BRLL"
-  spec.version = "1.3"
+  spec.version = "2"
   spec.authors = ["Iago Dórea"]
   spec.email = ["iagodp08@gmail.com"]
 
@@ -17,6 +17,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "sinatra", "~> 1.0"
+  spec.add_dependency "optparse"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

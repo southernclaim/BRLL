@@ -6,6 +6,21 @@ i made it to easy ur life!
 
 **Note: this repository is a continuation of the original BRLL (i lost my old account mioojo) but the gem in both is the same** 
 
+## Installation
+
+### Linux
+Ubuntu/Debian:
+
+```sh
+$ sudo apt install ruby ruby-dev && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace &&
+```
+
+### Gem
+```sh
+gem install BRLL
+```
+* If u want a .gem file, go to [Releases](https://github.com/southernclaim/BRLL/release)
+
 ## Simple Quiz
 
 ### Ruby
@@ -23,10 +38,4 @@ output("Hello what i 2 + 2");
 response = listen;
 ifeql(response,"4",output("u are right"));
 ```
-## Installation
 
-### Gem
-```sh
-gem install BRLL
-```
-* If u want a .gem file, go to [Releases](https://github.com/southernclaim/BRLL/release)

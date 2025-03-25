@@ -57,6 +57,6 @@ end
 require 'BRLL'
 output("Hello what i 2 + 2");
 response = listen;
-ifeql(response,"4",output("u are right"));
+iseql(response,"4",output("u are right"));
 ```
 

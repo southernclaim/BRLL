@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+require 'optparse'
+
+options = "Use -h to show BRLL commands"
+OptionParser.new do |opts|
+  opts.banner = "Usage: brll [options]"
+
+  opts.on("-h", "--help", "Show the help") do 
+    puts opts
+  end
+  opts.on("-v", "--version", "Show the version") do 
+    puts "BRLL v2.0"
+  end
+ opts.on("-n", "--new", "Create a new BRLL project") do 
+    puts "==> New Project name:"
+    name = gets.chomp
+    sleep(1)
+    puts "Creating a new BRLL project called #{name}..."
+    sleep(2)
+    system("mkdir #{name}")
+    system("cd #{name}")
+    system("touch main.br")
+end
+
+end.parse!
+
+p options

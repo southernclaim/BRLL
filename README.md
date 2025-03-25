@@ -43,6 +43,12 @@ $ doas apk add ruby ruby-dev git wget && gem install --user-install BRLL && mkdi
 ### Windows
 We don't have windows support!
 
+
+## Usage
+```sh
+$ brll -h
+```
+
 ## Examples
 
 ### Ruby

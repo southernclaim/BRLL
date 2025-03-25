@@ -7,7 +7,10 @@ i made it to easy ur life!
 
 **Note: this repository is a continuation of the original BRLL (i lost my old account mioojo) but the gem in both is the same** 
 
-[Video](./record.mp4)
+
+
+https://github.com/user-attachments/assets/190a988d-bedd-49d1-bbcb-c8627e9e2324
+
 
 ## Installation
 

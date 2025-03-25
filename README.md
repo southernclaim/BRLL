@@ -12,31 +12,31 @@ i made it to easy ur life!
 Ubuntu/Debian:
 
 ```sh
-$ sudo apt install ruby ruby-dev git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && wget -q https://raw.githubusercontent.com/southernclaim/BRLL/refs/heads/main/brll && chmod +x ./brll && sudo mv /usr/local/bin/ && cd .. && rm -rf brll-workspace && echo "BRLL Installed! use $ brll -h"
+$ sudo apt install ruby ruby-dev git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && wget -q https://raw.githubusercontent.com/southernclaim/BRLL/refs/heads/main/brll && chmod +x ./brll && sudo mv ./brll /usr/local/bin/ && cd .. && rm -rf brll-workspace && echo "BRLL Installed! use $ brll -h"
 ```
 
 OpenSUSE
 
 ```sh
-$ sudo zypper in ruby ruby-devel git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && wget -q https://raw.githubusercontent.com/southernclaim/BRLL/refs/heads/main/brll && chmod +x ./brll && sudo mv /usr/local/bin/ && cd .. && rm -rf brll-workspace && echo "BRLL Installed! use $ brll -h"
+$ sudo zypper in ruby ruby-devel git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && wget -q https://raw.githubusercontent.com/southernclaim/BRLL/refs/heads/main/brll && chmod +x ./brll && sudo mv ./brll /usr/local/bin/ && cd .. && rm -rf brll-workspace && echo "BRLL Installed! use $ brll -h"
 ```
 
 Fedora
 
 ```sh
-$ sudo dnf install ruby ruby-devel git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && wget -q https://raw.githubusercontent.com/southernclaim/BRLL/refs/heads/main/brll && chmod +x ./brll && sudo mv /usr/local/bin/ && cd .. && rm -rf brll-workspace && echo "BRLL Installed! use $ brll -h"
+$ sudo dnf install ruby ruby-devel git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && wget -q https://raw.githubusercontent.com/southernclaim/BRLL/refs/heads/main/brll && chmod +x ./brll && sudo mv ./brll /usr/local/bin/ && cd .. && rm -rf brll-workspace && echo "BRLL Installed! use $ brll -h"
 ```
 
 Arch
 
 ```sh
-$ sudo pacman -S ruby git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && wget -q https://raw.githubusercontent.com/southernclaim/BRLL/refs/heads/main/brll && chmod +x ./brll && sudo mv /usr/local/bin/ && cd .. && rm -rf brll-workspace && echo "BRLL Installed! use $ brll -h"
+$ sudo pacman -S ruby git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && wget -q https://raw.githubusercontent.com/southernclaim/BRLL/refs/heads/main/brll && chmod +x ./brll && sudo mv ./brll /usr/local/bin/ && cd .. && rm -rf brll-workspace && echo "BRLL Installed! use $ brll -h"
 ```
 
 Alpine (May have some Shell Script problems!)
 
 ```sh
-$ doas apk add ruby ruby-dev git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && wget -q https://raw.githubusercontent.com/southernclaim/BRLL/refs/heads/main/brll && chmod +x ./brll && sudo mv /usr/local/bin/ && cd .. && rm -rf brll-workspace && echo "BRLL Installed! use $ brll -h"
+$ doas apk add ruby ruby-dev git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && wget -q https://raw.githubusercontent.com/southernclaim/BRLL/refs/heads/main/brll && chmod +x ./brll && sudo mv ./brll /usr/local/bin/ && cd .. && rm -rf brll-workspace && echo "BRLL Installed! use $ brll -h"
 ```
 
 ### Windows

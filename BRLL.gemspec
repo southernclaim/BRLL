@@ -4,7 +4,7 @@ require_relative "lib/BRLL/version"
 
 Gem::Specification.new do |spec|
   spec.name = "BRLL"
-  spec.version = "2"
+  spec.version = "2.0.1"
   spec.authors = ["Iago Dórea"]
   spec.email = ["iagodp08@gmail.com"]
 

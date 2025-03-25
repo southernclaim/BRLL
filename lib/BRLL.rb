@@ -43,9 +43,6 @@ end
 def rn(rnum);
 rand(rnum)
 end
-def wait(wnm)
+def wait(wnm);
 	sleep wnm
-end
-def var(variable,value)
-	variable = value
 end

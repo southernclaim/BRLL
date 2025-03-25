@@ -12,7 +12,7 @@ i made it to easy ur life!
 Ubuntu/Debian:
 
 ```sh
-$ sudo apt install ruby ruby-dev git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && 
+$ sudo apt install ruby ruby-dev git wget && gem install --user-install BRLL && mkdir brll-workspace && cd brll-workspace && wget -q https://raw.githubusercontent.com/southernclaim/BRLL/refs/heads/main/brll && chmod +x ./brll && sudo mv /usr/local/bin/ && cd .. && rm -rf brll-workspace && echo "BRLL Installed! use $ brll -h"
 ```
 
 ### Gem

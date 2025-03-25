@@ -17,10 +17,14 @@ OptionParser.new do |opts|
     sleep(1)
     puts "Creating a new BRLL project called #{name}..."
     sleep(2)
-    system("mkdir #{name}")
-    system("cd #{name}")
-    system("touch main.br")
+    system("git clone -q https://github.com/southernclaim/brll-base")
+    system("mv brll-base #{name}")
+    puts "Project #{name} created!"
+    puts "run your project with: brll -r"
 end
+ opts.on("-r", "--run", "Run a ./main.br on your current directory") do 
+    system("ruby ./main.br")
+  end
 
 end.parse!
 

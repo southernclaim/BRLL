@@ -46,3 +46,6 @@ end
 def wait(wnm)
 	sleep wnm
 end
+def var(variable,value)
+	variable = value
+end

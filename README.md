@@ -7,7 +7,7 @@ i made it to easy ur life!
 
 **Note: this repository is a continuation of the original BRLL (i lost my old account mioojo) but the gem in both is the same** 
 
-(Video)[./record.mp4]
+[Video](./record.mp4)
 
 ## Installation
 

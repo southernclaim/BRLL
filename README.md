@@ -1,5 +1,6 @@
 # BRLL
 [![Gem Version](https://badge.fury.io/rb/BRLL.svg)](https://badge.fury.io/rb/BRLL)
+Brll 2 is here!!
 
 BRLL (Brazilian Lang) is a "one line" Alias programming language made with ruby
 i made it to easy ur life!

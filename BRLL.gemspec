@@ -4,12 +4,12 @@ require_relative "lib/BRLL/version"
 
 Gem::Specification.new do |spec|
   spec.name = "BRLL"
-  spec.version = "1.2.2"
-  spec.authors = ["nora-software"]
+  spec.version = "1.3"
+  spec.authors = ["Iago Dórea"]
   spec.email = ["iagodp08@gmail.com"]
 
-  spec.summary = "BRLL is an programming language made to easy ur life!"
-  spec.description = "BRLL is literaly an one line programming language made with love in ruby, adds a new syntax and etc..."
+  spec.summary = "BRLL is an Alias programming language made to easy ur life!"
+  spec.description = "BRLL is literaly an one line Alias programming language made with love in ruby, adds a new syntax and etc..."
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
   spec.files = ["lib/BRLL.rb"]
